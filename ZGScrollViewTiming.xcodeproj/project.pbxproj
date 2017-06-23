@@ -13,11 +13,11 @@
 		23BA14581EFB928D00EB8DF3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BA14571EFB928D00EB8DF3 /* CoreImage.framework */; };
 		23BA145C1EFB928D00EB8DF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BA145B1EFB928D00EB8DF3 /* main.m */; };
 		23BA145F1EFB928D00EB8DF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BA145E1EFB928D00EB8DF3 /* AppDelegate.m */; };
-		23BA14621EFB928D00EB8DF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BA14611EFB928D00EB8DF3 /* ViewController.m */; };
-		23BA14661EFB928D00EB8DF3 /* UIDevice+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BA14651EFB928D00EB8DF3 /* UIDevice+Info.m */; };
 		23BA14691EFB928D00EB8DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BA14671EFB928D00EB8DF3 /* Main.storyboard */; };
 		23BA146B1EFB928D00EB8DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BA146A1EFB928D00EB8DF3 /* Assets.xcassets */; };
 		23BA146E1EFB928E00EB8DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BA146C1EFB928D00EB8DF3 /* LaunchScreen.storyboard */; };
+		23BA14771EFB932600EB8DF3 /* ZGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BA14761EFB932600EB8DF3 /* ZGViewController.m */; };
+		23BA147A1EFB976B00EB8DF3 /* UIScrollView+ScrollAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BA14791EFB976B00EB8DF3 /* UIScrollView+ScrollAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		23BA145B1EFB928D00EB8DF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23BA145D1EFB928D00EB8DF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23BA145E1EFB928D00EB8DF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23BA14601EFB928D00EB8DF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23BA14611EFB928D00EB8DF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		23BA14641EFB928D00EB8DF3 /* UIDevice+Info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Info.h"; path = "UIDeviceInfo/UIDevice+Info.h"; sourceTree = "<group>"; };
-		23BA14651EFB928D00EB8DF3 /* UIDevice+Info.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Info.m"; path = "UIDeviceInfo/UIDevice+Info.m"; sourceTree = "<group>"; };
 		23BA14681EFB928D00EB8DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23BA146A1EFB928D00EB8DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23BA146D1EFB928E00EB8DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23BA146F1EFB928E00EB8DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BA14751EFB932600EB8DF3 /* ZGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGViewController.h; sourceTree = "<group>"; };
+		23BA14761EFB932600EB8DF3 /* ZGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGViewController.m; sourceTree = "<group>"; };
+		23BA14781EFB976B00EB8DF3 /* UIScrollView+ScrollAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScrollAnimation.h"; sourceTree = "<group>"; };
+		23BA14791EFB976B00EB8DF3 /* UIScrollView+ScrollAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ScrollAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +87,10 @@
 			children = (
 				23BA145D1EFB928D00EB8DF3 /* AppDelegate.h */,
 				23BA145E1EFB928D00EB8DF3 /* AppDelegate.m */,
-				23BA14601EFB928D00EB8DF3 /* ViewController.h */,
-				23BA14611EFB928D00EB8DF3 /* ViewController.m */,
-				23BA14671EFB928D00EB8DF3 /* Main.storyboard */,
-				23BA146A1EFB928D00EB8DF3 /* Assets.xcassets */,
-				23BA146C1EFB928D00EB8DF3 /* LaunchScreen.storyboard */,
-				23BA146F1EFB928E00EB8DF3 /* Info.plist */,
-				23BA14631EFB928D00EB8DF3 /* UIDeviceInfo */,
+				23BA14781EFB976B00EB8DF3 /* UIScrollView+ScrollAnimation.h */,
+				23BA14791EFB976B00EB8DF3 /* UIScrollView+ScrollAnimation.m */,
+				23BA14751EFB932600EB8DF3 /* ZGViewController.h */,
+				23BA14761EFB932600EB8DF3 /* ZGViewController.m */,
 				23BA145A1EFB928D00EB8DF3 /* Supporting Files */,
 			);
 			path = ZGScrollViewTiming;
@@ -102,18 +99,13 @@
 		23BA145A1EFB928D00EB8DF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23BA14671EFB928D00EB8DF3 /* Main.storyboard */,
+				23BA146A1EFB928D00EB8DF3 /* Assets.xcassets */,
+				23BA146C1EFB928D00EB8DF3 /* LaunchScreen.storyboard */,
+				23BA146F1EFB928E00EB8DF3 /* Info.plist */,
 				23BA145B1EFB928D00EB8DF3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		23BA14631EFB928D00EB8DF3 /* UIDeviceInfo */ = {
-			isa = PBXGroup;
-			children = (
-				23BA14641EFB928D00EB8DF3 /* UIDevice+Info.h */,
-				23BA14651EFB928D00EB8DF3 /* UIDevice+Info.m */,
-			);
-			name = UIDeviceInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,10 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23BA14621EFB928D00EB8DF3 /* ViewController.m in Sources */,
+				23BA14771EFB932600EB8DF3 /* ZGViewController.m in Sources */,
 				23BA145F1EFB928D00EB8DF3 /* AppDelegate.m in Sources */,
 				23BA145C1EFB928D00EB8DF3 /* main.m in Sources */,
-				23BA14661EFB928D00EB8DF3 /* UIDevice+Info.m in Sources */,
+				23BA147A1EFB976B00EB8DF3 /* UIScrollView+ScrollAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

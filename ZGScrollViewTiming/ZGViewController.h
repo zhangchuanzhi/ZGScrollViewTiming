@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZGViewController.h
 //  ZGScrollViewTiming
 //
 //  Created by offcn_zcz32036 on 2017/6/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZGViewController : UIViewController
 
 @end
-
